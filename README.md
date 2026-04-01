@@ -7,6 +7,15 @@ A Python and MySQL-based employee management system that allows users to manage 
 - Python
 - MySQL
 
+## 🗄️ Database Schema
+
+Table: emp
+
+- empno (INT, PRIMARY KEY)
+- name (VARCHAR)
+- dept (VARCHAR)
+- salary (INT)
+
 ## ⚙️ Features
 - Add, search, update, and delete employee records
 - Display employee list in tabular format
@@ -26,12 +35,23 @@ employee-management-system/
 └── README.md
 ```
 
-
 ## ▶️ How to Run
-1. Install MySQL and create a database named `company`
-2. Create table `emp` with required fields
-3. Update database credentials in the script
-4. Run the program: python employee_system.py
+
+1. Install MySQL  
+2. Create database:
+   CREATE DATABASE company;
+
+3. Create table:
+   CREATE TABLE emp (
+     empno INT PRIMARY KEY,
+     name VARCHAR(50),
+     dept VARCHAR(50),
+     salary INT
+   );
+
+4. Update credentials in code  
+5. Run:
+   python employee_system.py
 
 
 ## 🖼️ Output Preview
