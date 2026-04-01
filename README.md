@@ -35,7 +35,8 @@ employee-management-system/
 
 
 ## 🖼️ Output Preview
-![Output](screenshots/output.png)
+![Output](screenshots/output(1).png)
+![Output](screenshots/output(2).png)
 
 ## 🚀 Conclusion
 This project demonstrates database integration, CRUD operations, and basic payroll logic using Python and MySQL.
